@@ -1,0 +1,124 @@
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #e0f7fa;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* Container */
+div {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Input Section */
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  align-items: center;
+}
+
+label {
+  font-weight: bold;
+  color: #004d40;
+  font-size: 14px;
+  margin-bottom: 5px;
+  text-align: left;
+  width: 90%;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  border: 2px solid #b2dfdb;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 16px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+input:focus {
+  border: 2px solid #00796b;
+}
+
+/* Buttons */
+button {
+  padding: 12px 30px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background: #00796b;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background: #004d40;
+  transform: translateY(-2px);
+}
+
+button:nth-of-type(2) {
+  background: #c62828;
+}
+
+button:nth-of-type(2):hover {
+  background: #b71c1c;
+}
+
+/* Results Section */
+p {
+  font-size: 16px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.suggestion {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #f1f8e9;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.suggestion h4 {
+  margin: 0;
+  color: #558b2f;
+}
+
+.suggestion p {
+  margin: 10px 0 0;
+  color: #33691e;
+}
