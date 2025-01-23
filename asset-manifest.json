@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/github.io.BMIApp/static/css/main.6c2f15e6.css",
+    "main.js": "/github.io.BMIApp/static/js/main.b1dd29f1.js",
+    "index.html": "/github.io.BMIApp/index.html",
+    "main.6c2f15e6.css.map": "/github.io.BMIApp/static/css/main.6c2f15e6.css.map",
+    "main.b1dd29f1.js.map": "/github.io.BMIApp/static/js/main.b1dd29f1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c2f15e6.css",
+    "static/js/main.b1dd29f1.js"
+  ]
+}
